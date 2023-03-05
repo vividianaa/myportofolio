@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portofolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Poppins", sans-serif;
+      }
+      .navbar-brand,
+      .nav-item .nav-link {
+        color: white;
+      }
+      button {
+        margin-left: 5px;
+      }
+      #tombol:hover{
+        background-color: #2196f3;
+      }
+
+      #footer .nav-item a, p{
+        color: white
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Start Navbar -->
+    <div class="container-fluid" id="navbar" style="background-color: #2196f3;">   
+      <nav class="navbar navbar-expand-lg" >
+      <div class="container-fluid">
+        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </div>
+    
+    <!-- End Navbar -->
+
+    <!-- Start Halaman Home -->
+    <div class="container" id="home">
+      <div class="py-2 my-3 text-center">
+      <img
+        class="d-block mx-auto mb-2"
+        style="border-radius: 100%"
+        src="https://i.postimg.cc/9FyMvKNR/pas-foto.png"
+        alt=""
+        width="200"
+        height="200"
+      />
+      <h1 class="display-4 fw-bold">HELLO,</h1>
+      <div class="col-lg-6 mx-auto">
+        <h1>I'M VIVI DIANA RISQI</h1>
+      </div>
+    </div>
+    <hr />
+    </div>
+    
+    
+    <!-- End Halaman Home -->
+
+    <!-- Start About-->
+    <div class="container" id="about">
+      <div class="px-5 py-4 my-2 text-center">
+      <h1 class="display-6 fw-bold mb-4">ABOUT ME</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4" style="color: gray;">
+          Mahasiswa semester 6 jurusan sistem informasi di Universitas Terbuka
+          dan bekerja sebagai staf administrasi di PT Langgeng Makmur Aluminium.
+        </p>
+      </div>
+    </div>
+    </div>
+    
+
+    <!-- End About -->
+
+    <!-- Start Project -->
+    <div class="container" id="project">
+       <div class="container px-3 py-4" id="custom-cards">
+      <h2 class="pb-3 border-bottom">My Project</h2>
+
+      <div class="row">
+        <div class="col-md mb-4">
+          <div class="card">
+            <iframe
+              title="travel"
+              width="100%"
+              height="400"
+              src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fu92zMXFm8IbxDCmntiyjJs%2FUntitled%3Fnode-id%3D3%253A2%26scaling%3Dmin-zoom%26page-id%3D0%253A1"
+              allowfullscreen
+            ></iframe>
+
+          </div>
+        </div>
+        <div class="col-md mb-4">
+          <div class="card">
+            <iframe
+              title="toko_bakery"
+              width="100%"
+              height="400"
+              src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fxq9xEDm0HquTFFctDmrqzA%2FUntitled%3Fscaling%3Dmin-zoom%26page-id%3D0%253A1%26node-id%3D20%253A84"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="col-md mb-4">
+          <div class="card">
+            <iframe
+              title="toko_online"
+              width="100%"
+              height="400"
+              src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FccW6Txa7o96RW7e38c8b3O%2Flatihan3%3Fnode-id%3D1%253A4%26scaling%3Dscale-down%26page-id%3D0%253A1"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+    </div>
+   
+
+    <!-- End Project -->
+
+    
+    <!-- Start Contact -->
+    <div class="container mb-3" id="contact">
+      <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label"
+        >Nama</label
+      >
+      <input
+        type="text"
+        class="form-control"
+        id="exampleFormControlInput1"
+      />
+      <div class="mb-3">
+      <label for="exampleFormControlInput2" class="form-label"
+        >Email address</label
+      >
+      <input
+        type="email"
+        class="form-control"
+        id="exampleFormControlInput1"
+      />
+      </div>
+      <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label"
+        >Tulis Pesan Anda</label
+      >
+      <textarea
+        class="form-control"
+        id="exampleFormControlTextarea1"
+        rows="3"
+      ></textarea>
+      </div>
+      <button type="button" id="tombol" class="btn position-relative mb-3 py-2 px-4 text-bg-blue border border-dark rounded-pill">Submit</button>
+    </div>
+    
+    <!-- End Contact -->
+    
+    <!-- Start Footer -->
+    
+
+    <div class="container-fluid" id="footer" style="background-color: #2196f3;">
+      <footer class="container-fluid py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link ">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-link ">Project</a></li>
+          <li class="nav-item"><a href="#" class="nav-link ">Contact</a></li>
+        </ul>
+       <p class="text-center" >© Vivi Diana Risqi</p>
+      </footer>      
+    </div>
+   
+
+      <!-- End Footer -->
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
